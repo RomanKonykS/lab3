@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="uk">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Моє портфоліо</title>
+		<link rel="stylesheet" href="main.css" />
+	</head>
+	<body>
+		<header>
+			<h1>Моє портфоліо</h1>
+			<nav>
+				<ul>
+					<li><a href="#about">Про мене</a></li>
+					<li><a href="#skills">Навички</a></li>
+					<li><a href="#portfolio">Портфоліо</a></li>
+					<li><a href="#contacts">Контакти</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main>
+			<section id="about" class="about">
+				<div class="avatar-wrapper">
+					<img src="img/new.jpg" alt="Моє фото" class="avatar" />
+				</div>
+				<article>
+					<h2>Про мене</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+				</article>
+			</section>
+
+			<section id="skills" class="skills">
+				<h2>Навички</h2>
+				<div class="skill">
+					<span>HTML</span>
+					<div class="bar html"></div>
+				</div>
+				<div class="skill">
+					<span>CSS</span>
+					<div class="bar css"></div>
+				</div>
+				<div class="skill">
+					<span>JavaScript</span>
+					<div class="bar js"></div>
+				</div>
+				<div class="skill">
+					<span>Python</span>
+					<div class="bar python"></div>
+				</div>
+			</section>
+
+			<section id="portfolio" class="portfolio">
+				<h2>Портфоліо</h2>
+				<div class="portfolio-items">
+					<div class="item">
+						<img src="img/stock.jpg" alt="Приклад роботи" />
+						<p>Приклад роботи</p>
+					</div>
+					<div class="item">
+						<img src="img/stock.jpg" alt="Приклад роботи 2" />
+						<p>Приклад роботи</p>
+					</div>
+					<div class="item">
+						<img src="img/stock.jpg" alt="Приклад роботи 3" />
+						<p>Приклад роботи</p>
+					</div>
+				</div>
+			</section>
+
+			<section id="contacts" class="contacts">
+				<h2>Контакти</h2>
+				<form>
+					<input type="text" name="name" placeholder="Ім’я" required />
+					<input
+						type="email"
+						name="email"
+						placeholder="Електронна пошта"
+						required
+					/>
+
+					<textarea
+						name="message"
+						placeholder="Повідомлення"
+						required
+					></textarea>
+					<button type="submit">Надіслати</button>
+				</form>
+			</section>
+		</main>
+
+		<footer>
+			<p>© 2025 Рома Коник. Усі права захищено.</p>
+		</footer>
+	</body>
+</html>
